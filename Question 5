@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
 int main()
-{int a,b,temp;
+{ int a,b,temp;
   cout<<"ENTER THE VALUES OF a AND b" ;
   cin>>a>>b;
   temp=a;
   a=b;
   b=temp;
   cout<<"THE SWAPPED VALUES OF a :" <<a<<endl<<"THE SWAPPED VALUE OF b :"<<b;
-  return 0;}
+  return 0; }
