@@ -1,0 +1,11 @@
+include<iostream>
+using namespace std;
+int main()
+    {int a,b,c;
+    float  sum, average;
+    cout<<"ENTER THE MARKS OF THE STUDENT";
+    cin>>a>>b>>c;
+    sum=a+b+c;
+    average=sum/3;
+    cout<<"THE AVERAGE MARKS OF THE STUDENT :"<<average;
+    return 0;}
