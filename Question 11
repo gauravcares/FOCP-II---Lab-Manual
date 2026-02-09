@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+        int items;
+        float price,total;
+        cout<<" enter the price and the no of items";
+        cin>>items>>price;
+        total=items*price;
+        if(items>1000){
+            total=total*0.9;
+            cout<<total;
+}
+return 0;
+}
