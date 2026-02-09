@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int item_no,quantity,unit_price,sum;
+    float discount,total_amount;
+    cout<<"ENTER THE ITEM NUMBER"<<endl<<"QUANTITY OF ITEMS PURCHASED"<<endl<<"THE UNIT PRICE OF ITEMS";
+    cin>>item_no>>quantity>>unit_price;
+    sum=(quantity*unit_price);
+    discount=(sum)*20/100;
+    total_amount=sum+discount;
+    cout<<"THE TOTAL AMOUNT TO BE PAID IS :"<<total_amount;
+    return 0;
+}
