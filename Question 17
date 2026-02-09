@@ -1,0 +1,28 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() 
+{int n, sum = 0, temp, digit;
+    cin >> n;
+    for(int i = 1; i < n; i++)
+        if(n % i == 0)
+            sum += i;
+
+    if(sum == n)
+        cout << "Perfect\n";
+    else
+        cout << "Not Perfect\n";
+    sum = 0;
+    temp = n;
+    while(temp != 0) {
+        digit = temp % 10;
+        sum += digit * digit * digit;
+        temp /= 10;}
+    if(sum == n)
+        cout << "Armstrong";
+    else
+        cout << "Not Armstrong";
+
+    return 0;
+}
