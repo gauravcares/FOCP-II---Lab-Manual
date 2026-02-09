@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int id,n;
+    cout<<"ENTER THE IDENTITIES AND THE NO OF LOGINS";
+    cin>>id>>n;
+    for(int i=1;i<=n;i++)
+    {
+      if(id%3==0)
+        {
+            cout<<"Buzz";
+        }
+         if(id%5==0)
+        {
+            cout<<"Fuzz";
+        }
+        if(id%3==0&&id%5==0)
+        {
+            cout<<"Buzz Fuzz";
+        }
+        else{
+            cout<<0;
+        }}
+    return 0;
+}
