@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main(){
+    float temp,new_temp;
+    char unit;
+    cout<<"enter the temp"<<endl<<"enter c or f";
+    cin>>temp>>unit;
+    if (unit=='c')
+    {
+       new_temp=(9/5*(temp))+32;
+       cout<<"THE TEMPRATURE IN FAHRENHEIT :"<<new_temp;
+    }
+    else if(unit=='f')
+    {
+        new_temp=(temp-32)*5/9;
+        cout<<"THE TEMPRATURE IN CELCIUS :"<<new_temp;
+    }
+    else
+    {
+        cout<<"ERROR";
+    }
+    return 0;
+}
